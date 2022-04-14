@@ -15,20 +15,20 @@ if ( hora < 5){
     boa.innerText = 'está de madrugada'
     boa.style.fontSize = '2em'
     document.body.style.backgroundImage = "linear-gradient(to top, #0D0D0D,#404040,#8C8C8C"
-    temp.src = 'img/madrugada.jpg'
+    temp.src = '/item/img/madrugada.jpg'
     
 } else if (hora  < 12) {
     boa.innerText = 'bom dia'
-    temp.src = 'img/dia.jpg'
+    temp.src = '/item/img/dia.jpg'
 
 } else if ( hora  < 18) {
     boa.innerText = 'boa tarde'
     document.body.style.backgroundImage = "linear-gradient(to top, #A65437,#F2935C,#D9C6BA"
-    temp.src = 'img/tarde.jpg'
+    temp.src = '/item/img/tarde.jpg'
 }else if (hora  < 23){
     boa.innerText = 'boa noite'
     document.body.style.backgroundImage = "linear-gradient(to top, #0D0D0D,#0B1426,#1F598C"
-    temp.src = 'img/noite.jpg'
+    temp.src = '/item/img/noite.jpg'
 }
 // horario do input
 var enviar = document.getElementById('mud-hora2')
